@@ -91,6 +91,8 @@ page2 with Denali - denali.html
 **** Add <p> around "Other sites...."
 **** Change Denali to a link to the page.
 
+*** Review Semantics
+
 *** starter_bare
 
 --> add style
