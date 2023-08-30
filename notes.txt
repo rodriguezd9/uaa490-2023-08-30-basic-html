@@ -1,0 +1,112 @@
+**** hello.html:
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Hello!</title>
+    </head>
+    <body>
+        Hello, world!
+    </body>
+</html>
+
+**** headings.html:
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Web Page!</title>
+    </head>
+    <body>
+        <h1>This is the largest headline</h1>
+        <h2>This is also a large headline</h2>
+        <h3>This is a slightly smaller headline</h3>
+        <h4>This is an even smaller headline</h4>
+        <h5>This is the second-smallest headline</h5>
+        <h6>This is the smallest headline</h6>
+    </body>
+</html>
+
+**** lists.html:
+
+ <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My Web Page!</title>
+    </head>
+    <body>
+        An Unordered List:
+        <ul>
+            <li>One Item</li>
+            <li>Another Item</li>
+            <li>Yet Another Item</li>
+        </ul>
+        An Ordered List:
+        <ol>
+            <li>First Item</li>
+            <li>Second Item</li>
+            <li>Third Item</li>
+        </ol>
+    </body>
+</html>
+
+**** image1.html
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My Web Page!</title>
+    </head>
+    <body>
+        <img src="anchgorage.jpeg" alt="Anchorage">
+    </body>
+</html>
+
+** add width parameter
+
+
+**** links:
+
+page1 with Anchorage - anchorage.html
+page2 with Denali - denali.html
+
+**** image links to wikipedia article
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My Web Page!</title>
+    </head>
+    <body>
+        <h1>
+            Anchorage
+        </h1>
+        <a href="https://en.wikipedia.org/wiki/Anchorage,_Alaska">
+            <img src="anchorage.jpeg" width="300" alt="Anchorage">
+        </a>
+        Other sites: Homer, Seward, Denali
+    </body>
+</html>
+
+**** Add <p> around "Other sites...."
+**** Change Denali to a link to the page.
+
+*** starter_bare
+
+--> add style
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">
+
+--> Add <header> and <nav>
+--> Add <main>, <footer>
+--> Inside <main>, add <article> and <section>
+--> include <aside>
+--> Move the nav links to after the <h1>
+--> show where were are 
+          <li><a class="active" href="recipe-starter.html">Starter</a></li>
+and link to extas.css
+
+--> add tips:
+<details>
+     <summary>xxx
+     <p>xxx
+ 
